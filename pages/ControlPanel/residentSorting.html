@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resident Sorting</title>
+    <link rel="stylesheet" href="../../styles/ControlPanel/residentSorting.css">
+    <link rel="stylesheet" href="../../styles/ControlPanel/General.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="dialog__error">
+    <div class="dialog__content__error">
+        <div class="textarea__error">
+            <div class="error__header">
+                <h1>Scanner offline</h1>
+            </div>
+            <div class="error__body">
+                <p>Unfortunately the connected scanner is currently offline. A local restart can be performed and will most likely fix the problem.</p>
+                <p>If the problem persist after a restart<br><a href="">contact support.</a></p>
+                <p class="thin">This error message will automatically disappear when the scanner is back online.</p>
+            </div>
+        </div>
+        <img src="../../src/ControlPanel/Error.png" alt="">
+    </div>
+</div>
+<div class="content">
+    <div class="menu">
+        <img src="../../src/ControlPanel/LogoMini.png" alt="" id="logo">
+        <div class="leave__wrapper">
+            <img src="../../src/ControlPanel/LeaveAccount.png" alt="" id="leaveAccount">
+            <div class="tooltip">
+                <div class="tooltip__info">
+                    <p>Sign out</p>
+                </div>
+                <div class="triangle">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content__inner">
+        <div class="header__main">
+            <div class="left">
+                <img src="../../src/ControlPanel/BackButton.png" alt="" class="back">
+                <button class="start__scan">START SCAN</button>
+            </div>
+            <div class="right">
+                <div class="scanner__status">
+                    <p>Scanner status</p>
+                    <span>ONLINE</span>
+                </div>
+                <div class="language">
+                    <img src="../../src/ControlPanel/flagEn.png" alt="" id="showEn">
+                    <img src="../../src/ControlPanel/flagNor.png" alt="" id="showNor">
+                    <img src="../../src/ControlPanel/flagLi.png" alt="" id="showLi">
+                    <img src="../../src/ControlPanel/flagUa.png" alt="" id="showUa">
+                    <div class="select__language">
+                        <img src="../../src/ControlPanel/flagEn.png" alt="" id="selectEn">
+                        <img src="../../src/ControlPanel/flagNor.png" alt="" id="selectNor">
+                        <img src="../../src/ControlPanel/flagLi.png" alt="" id="selectLi">
+                        <img src="../../src/ControlPanel/flagUa.png" alt="" id="selectUa">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub__header">
+            <div class="left">
+                Select sorting location
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
+        <div class="content__section">
+            <div class="section__inner">
+
+            </div>
+        </div>
+        <div class="licenses">
+            <p>
+                License owner: Washd.ID Developer Platform <br>
+                Support: 33501040 / post@washd.no
+            </p>
+        </div>
+    </div>
+</div>
+<script src="../../scripts/ControlPanel/Header.js"></script>
+<script src="../../scripts/ControlPanel/residentSorting.js"></script>
+<script src="../../scripts/ControlPanel/Menu.js"></script>
+</body>
+</html>

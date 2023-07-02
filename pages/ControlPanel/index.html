@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+    <link rel="stylesheet" href="../../styles/ControlPanel/Index.css">
+    <link rel="stylesheet" href="../../styles/ControlPanel/General.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="dialog__error">
+    <div class="dialog__content__error">
+        <div class="textarea__error">
+            <div class="error__header">
+                <h1>Scanner offline</h1>
+            </div>
+            <div class="error__body">
+                <p>Unfortunately the connected scanner is currently offline. A local restart can be performed and will most likely fix the problem.</p>
+                <p>If the problem persist after a restart<br><a href="">contact support.</a></p>
+                <p class="thin">This error message will automatically disappear when the scanner is back online.</p>
+            </div>
+        </div>
+        <img src="../../src/ControlPanel/Error.png" alt="">
+    </div>
+</div>
+</div>
+    <div class="content">
+        <div class="menu">
+            <img src="../../src/ControlPanel/LogoMini.png" alt="" id="logo">
+            <div class="leave__wrapper">
+                <img src="../../src/ControlPanel/LeaveAccount.png" alt="" id="leaveAccount">
+                <div class="tooltip">
+                    <div class="tooltip__info">
+                        <p>Sign out</p>
+                    </div>
+                    <div class="triangle">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__inner">
+            <div class="header__main">
+                <div class="left__main">
+                    <h1>Hello <span>Brooklyn</span></h1>
+                    <p>Here is your control panel</p>
+                </div>
+                <div class="right">
+                    <div class="scanner__status">
+                        <p>Scanner status</p>
+                        <span>ONLINE</span>
+                    </div>
+                    <div class="language">
+                        <img src="../../src/ControlPanel/flagEn.png" alt="" id="showEn">
+                        <img src="../../src/ControlPanel/flagNor.png" alt="" id="showNor">
+                        <img src="../../src/ControlPanel/flagLi.png" alt="" id="showLi">
+                        <img src="../../src/ControlPanel/flagUa.png" alt="" id="showUa">
+                        <div class="select__language">
+                            <img src="../../src/ControlPanel/flagEn.png" alt="" id="selectEn">
+                            <img src="../../src/ControlPanel/flagNor.png" alt="" id="selectNor">
+                            <img src="../../src/ControlPanel/flagLi.png" alt="" id="selectLi">
+                            <img src="../../src/ControlPanel/flagUa.png" alt="" id="selectUa">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons__form">
+                <div class="button" id="newRegistration">
+                    <div class="image__wrapper" id="newRegistrationImage">
+                        <img src="../../src/ControlPanel/NewRegistration.png" alt="" id="imgNR">
+                        <img style="display: none" src="../../src/ControlPanel/NewRegistrationActive.png" alt="" id="imgNRS">
+                    </div>
+                    <h1>NEW REGISTRATION</h1>
+                </div>
+                <div class="button" id="treatment">
+                    <div class="image__wrapper" id="treatmentImage">
+                        <img src="../../src/ControlPanel/Treatment.png" alt="" id="imgT">
+                        <img style="display: none" src="../../src/ControlPanel/TreatmentActive.png" alt="" id="imgTS">
+                    </div>
+                    <h1>TREATMENT</h1>
+                </div>
+                <div class="button" id="delivery">
+                    <div class="image__wrapper" id="deliveryImage">
+                        <img src="../../src/ControlPanel/Delivery.png" alt="" id="imgD">
+                        <img style="display: none" src="../../src/ControlPanel/DeliveryActive.png" alt="" id="imgDS">
+                    </div>
+                    <h1>DELIVERY</h1>
+                </div>
+                <div class="button" id="editing">
+                    <div class="image__wrapper" id="editingImage">
+                        <img src="../../src/ControlPanel/Editing.png" alt="" id="imgE">
+                        <img style="display: none" src="../../src/ControlPanel/EditingActive.png" alt="" id="imgES">
+                    </div>
+                    <h1>EDITING</h1>
+                </div>
+                <div class="button" id="colorSorting">
+                    <div class="image__wrapper" id="colorSortingImage">
+                        <img src="../../src/ControlPanel/ColorSorting.png" alt="" id="imgCS">
+                        <img style="display: none" src="../../src/ControlPanel/ColorSortingActive.png" alt="" id="imgCSS">
+                    </div>
+                    <h1>COLOR SORTING</h1>
+                </div>
+                <div class="button" id="residentSorting">
+                    <div class="image__wrapper" id="residentSortingImage">
+                        <img src="../../src/ControlPanel/ResidentSorting.png" alt="" id="imgRS">
+                        <img style="display: none" src="../../src/ControlPanel/ResidentSortingActive.png" alt="" id="imgRSS">
+                    </div>
+                    <h1>RESIDENT SORTING</h1>
+                </div>
+            </div>
+            <div class="licenses">
+                <p>
+                    License owner: Washd.ID Developer Platform <br>
+                    Support: 33501040 / post@washd.no
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="../../scripts/ControlPanel/Index.js"></script>
+    <script src="../../scripts/ControlPanel/Header.js"></script>
+    <script src="../../scripts/ControlPanel/Menu.js"></script>
+</body>
+</html>

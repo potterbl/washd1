@@ -1,0 +1,146 @@
+.content__section__main{
+    background-color: #FFFFFF;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#nextButton {
+    background: #3082F7;
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+#saveButton{
+    background: #3082F7;
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.select__wrapper{
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+.select__wrapper select{
+    padding: 24px 16px 0 10px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.select__wrapper p{
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 115%;
+    color: rgba(27, 31, 59, 0.65);
+}
+.dialog__content .input__wrapper input{
+    width: 300px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 30px 16px 6px 16px;
+    border-radius: 8px;
+    border: 1px solid #EDEDED;
+    outline: none;
+
+}
+.dialog__content .input__wrapper .big{
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    word-break: break-all;
+    border-radius: 8px;
+    border: 1px solid #EDEDED;
+    outline: none;
+}
+.dialog__content .input__wrapper{
+    position: relative;
+    height: max-content;
+    width: max-content;
+}
+.dialog__content .input__wrapper p{
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    color: #1B1F3BA5;
+    pointer-events: none;
+}
+.dialog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.dialog__content{
+    min-width: 300px;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.dialog__content h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: rgba(27, 31, 59, 0.65);
+}
+.dialog__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dialog__body{
+    display: grid;
+    grid-template-areas: "a a";
+    column-gap: 16px;
+    row-gap: 32px;
+    width: 100%;
+}
+.dialog__body__fully{
+    grid-template-areas: "a";
+}
+select{
+    width: 300px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 115%;
+    color: rgba(27, 31, 59, 0.65);
+    padding: 0 16px;
+    outline: none;
+}
+.delete__filter{
+    background: #FF8078;
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
